@@ -13,7 +13,7 @@ function App() {
   const [itemsCant, setItemsCant] = useState(0);
 
   function agregarACarrito(){
-    setItemsCant((item)=>item + 1);
+    setItemsCant(itemsCant + 1);
   }
 
 

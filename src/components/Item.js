@@ -20,7 +20,7 @@ export default function Item({
   const [stock, setStock] = useState(stockInicial);
 
   function onClick() {
-    setStock((item) => item - 1);
+    setStock(stock - 1);
     agregarACarrito();
   }
   

@@ -8,7 +8,6 @@
 import React from 'react';
  
 export default function Cabecera({itemsCant}) {
-  console.log(itemsCant);
   return (
     <header>
         <h1>Carrito de compras</h1>
